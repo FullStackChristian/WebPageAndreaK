@@ -1,0 +1,48 @@
+
+/* style for the contact form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background: var(--goldGrad);
+  color: black;
+  padding: 12px 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+	--width: 40%;
+	width:var(--width);
+	border-radius: 5px;
+	background-color: white;
+	padding: 20px;
+	margin:auto;
+}
+
+/* Anything under 1024px */
+@media screen and (max-width: 1024px){
+	.container {
+		--width: 60%;
+	}
+}

@@ -1,0 +1,101 @@
+:root{
+	--stdTxt: black;
+	--stdbckgrndclr: #D2D5D6;
+	--stdFont: "Monaco", monospace;
+	--goldGrad: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FCF6BA, #AA771C);
+	--cursFont: Brush Script MT, Brush Script Std, cursive;
+}
+
+/*
+Colours
+https://color.adobe.com/create/color-wheel
+#00A8E0 lightblue
+#4E90A6 taskbar
+#006F94 grey darkblue
+#D2D5D6 background-grey
+#004961 darkblue
+*/
+
+/* style for the headLine at the top of the page */
+.headLine{
+	--fntSze: 100%;
+	
+	font-size: var(--fntSze);
+	text-align:left;
+	background-color: var(--stdbckgrndclr);
+	background: var(--goldGrad);
+	display: block;
+	width: 100%;
+	height: auto;
+	margin:0;
+	padding:0;
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+
+.headLine > h1 {
+	padding-left: 100px;
+	letter-spacing: 0.2em;
+	font-family: var(--stdFont);
+	color: black;
+}
+
+/* style for the taskbar at the top of the page */
+.tskBarGrid {
+	position: sticky;
+	top: 0;
+	display:grid;
+	grid-template-columns: repeat(4, 1fr); /* three columns */
+	grid-template-rows: 50px; /* one row */
+	grid-column-gap: 10px;
+	place-items: center;
+	background-color: white;
+	/*background:var(--goldGrad);*/
+	color:darkgrey;  
+	letter-spacing: 0.2em;
+	font-family:var(--stdFont); 
+	z-index: 1000;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+/* selected link */
+a:active {
+  color: grey;
+  text-decoration: none;
+}
+
+#insta {
+	width: 50px;
+	height:auto;
+}
+
+/* style for the body*/
+body {
+  background-color: white;
+  font-family:var(--stdFont);
+  letter-spacing: 0.2em;
+  padding-top: 100px;
+}
+
+/* anything below 1024px */
+@media screen and (max-width: 1024px){
+	.headLine  {
+		--fntSze: 50%;
+	}
+}

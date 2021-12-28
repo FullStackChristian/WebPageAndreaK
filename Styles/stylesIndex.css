@@ -1,0 +1,58 @@
+/* style the main list of images */
+#content-grid {
+	--stdImgWidth: 400px;
+	--stdMargLeft: 200px;
+	--stdPadRight: 120px;
+	--fntSze: 100%;
+	
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: minmax(min-content, max-content);
+	grid-column-gap: 10px;
+}
+
+#content-grid > img {
+	width: var(--stdImgWidth);
+	height: auto;
+	object-fit: contain;
+	margin: 20px;
+	margin-left:var(--stdMargLeft);
+	border: 5px solid gold;
+	padding: 5px;
+	transition: transform 0.25s ease;
+	cursor: zoom-in;
+}
+
+#content-grid > img:hover {
+	transform: scale(1.5);
+	cursor: zoom-out;
+	z-index: 1001;
+}
+
+#content-grid > * {
+	
+	position: relative;
+	text-align: center;
+	margin: auto;
+	padding-right: var(--stdPadRight);
+	font-size: var (--fntSze);
+}
+
+/* anything below 1024px */
+@media screen and (max-width: 1024px){
+	#content-grid  {
+		--stdImgWidth: 200px;
+		--stdMargLeft: 50px;
+		--stdPadRight: 30px;
+		--fntSze: 75%;
+	}
+}
+
+@media screen and (max-width: 550px){
+	#content-grid  {
+		--stdImgWidth: 100px;
+		--stdMargLeft: 25px;
+		--stdPadRight: 15px;
+		--fntSze: 50%;
+	}
+}

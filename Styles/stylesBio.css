@@ -1,0 +1,17 @@
+.bio {
+	--padding: 400px;	
+}
+
+
+.bio > section {
+	text-align: center;
+	padding-left: var(--padding);
+	padding-right: var(--padding);
+}
+
+/* Anything under 1024px */
+@media screen and (max-width: 1024px){
+	.bio {
+		--padding: 100px;
+	}
+}
