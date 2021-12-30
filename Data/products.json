@@ -1,6 +1,6 @@
 [
 	{
-		"id" 			: 1,
+		"id" 			: "img1",
 		"name" 			: "Abstrakt1",
 		"price" 		: "100",
 		"desc" 	: "Mischtechnik: Acryl, Strukturpaste und Krakelierlack",
@@ -8,7 +8,7 @@
 		"img" 	: "Images/Paintings/sImgs/Abstrakt1-min.jpg"
 	},	
 	{
-		"id" 			: 2,
+		"id" 			: "img2",
 		"name" 			: "Gorilla",
 		"price" 		: "100",
 		"desc" 	: "Acryl",
@@ -16,7 +16,7 @@
 		"img" 	: "Images/Paintings/sImgs//Gorilla-min.jpg"
 	},
 	{
-		"id" 			: 3,
+		"id" 			: "img3",
 		"name" 			: "Lola",
 		"price" 		: "100",
 		"desc" 	: "Acryl",
@@ -24,7 +24,7 @@
 		"img" 	: "Images/Paintings/sImgs//Lola-min.jpg"
 	},
 	{
-		"id" 			: 4,
+		"id" 			: "img4",
 		"name" 			: "Das Leben",
 		"price" 		: "100",
 		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik",
@@ -32,7 +32,7 @@
 		"img" 	: "Images/Paintings/sImgs//dasLeben-min.jpg"
 	},
 	{
-		"id" 			: 5,
+		"id" 			: "img5",
 		"name" 			: "Dreams",
 		"price" 		: "100",
 		"desc" 	: "Acryl",
@@ -40,7 +40,7 @@
 		"img" 	: "Images/Paintings/sImgs//Dreams-min.jpg"
 	},
 	{
-		"id" 			: 6,
+		"id" 			: "img6",
 		"name" 			: "A.",
 		"price" 		: "100",
 		"desc" 	: "Mischtechnik: Acryl, Strukturpaste",
@@ -48,7 +48,7 @@
 		"img" 	: "Images/Paintings/sImgs//A-min.jpg"
 	},
 	{
-		"id" 			: 7,
+		"id" 			: "img7",
 		"name" 			: "Elefant",
 		"price" 		: "100",
 		"desc" 	: "Acryl",
@@ -56,7 +56,7 @@
 		"img" 	: "Images/Paintings/sImgs//Elefant1-min.jpg"
 	},
 	{
-		"id" 			: 8,
+		"id" 			: "img8",
 		"name" 			: "blauer Elefant",
 		"price" 		: "100",
 		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik",
@@ -64,7 +64,7 @@
 		"img" 	: "Images/Paintings/sImgs//blauerElefant-min.jpg"
 	},
 	{
-		"id" 			: 9,
+		"id" 			: "img9",
 		"name" 			: "Fruehling",
 		"price" 		: "100",
 		"desc" 	: "Acryl, Spachteltechnik",
@@ -72,7 +72,7 @@
 		"img" 	: "Images/Paintings/sImgs/Fruehling-min.jpg"
 	},
 	{
-		"id" 			: 10,
+		"id" 			: "img10",
 		"name" 			: "Nightlife",
 		"price" 		: "100",
 		"desc" 	: "Acryl",
@@ -80,7 +80,7 @@
 		"img" 	: "Images/Paintings/sImgs/Nightlife-min.jpg"
 	},
 	{
-		"id" 			: 11,
+		"id" 			: "img11",
 		"name" 			: "Schau auf unsere Erde",
 		"price" 		: "100",
 		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik",
@@ -88,7 +88,7 @@
 		"img" 	: "Images/Paintings/sImgs/schauAufUnsereErde-min.jpg"
 	},
 	{
-		"id" 			: 12,
+		"id" 			: "img12",
 		"name" 			: "Sommersturm",
 		"price" 		: "100",
 		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik",
@@ -96,7 +96,7 @@
 		"img" 	: "Images/Paintings/sImgs/Sommersturm-min.jpg"
 	},
 	{
-		"id" 			: 13,
+		"id" 			: "img13",
 		"name" 			: "Stier",
 		"price" 		: "100",
 		"desc" 	: "Mischtechnik: Acryl, Strukturpaste",
@@ -104,7 +104,7 @@
 		"img" 	: "Images/Paintings/sImgs/Stier-min.jpg"
 	},
 	{
-		"id" 			: 14,
+		"id" 			: "img14",
 		"name" 			: "Fagradalsfjall",
 		"price" 		: "100",
 		"desc" 	: "Mischtechnik: Acryl, Strukturpaste, Spachteltechnik",
@@ -112,7 +112,7 @@
 		"img" 	: "Images/Paintings/sImgs/Fagradalsfjall-min.jpg"
 	},
 	{
-		"id" 			: 15,
+		"id" 			: "img15",
 		"name" 			: "Tiger",
 		"price" 		: "100",
 		"desc" 	: "Acryl",
@@ -120,7 +120,7 @@
 		"img" 	: "Images/Paintings/sImgs/Tiger-min.jpg"
 	},
 	{
-		"id" 			: 16,
+		"id" 			: "img16",
 		"name" 			: "Loewe",
 		"price" 		: "100",
 		"desc" 	: "Acryl",

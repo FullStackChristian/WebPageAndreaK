@@ -1,7 +1,7 @@
 /* style the portfolio grid of images */
 .portfolio-grid {
 	--gap: 16px;
-	--num-cols:4;
+	--num-cols:5;
 	--row-height: 300px;
 	
 	box-sizing: border-box;
@@ -25,6 +25,60 @@
 	flex-grow: 1;
 	vertical-align: middle;
 }
+
+.portfolio-grid > img:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+/* styles for the slideshow */
+
+.mySlides {
+	display:none;
+}
+
+.mySlides {
+	background-color: white;
+	height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+	z-index: 2000;
+}
+
+.mySlides > img {
+	max-width: 90%;
+    max-height: 90%;
+    display: block;
+	margin:auto;
+	padding-top: 5%;
+}
+
+.prev, .next, .close{
+	z-index: 2002;
+	position: absolute;
+	
+}
+
+.prev {
+	bottom: 50%;
+	top: 50%;
+	left: 16px;
+}
+
+.next {
+	bottom: 50%;
+	top: 50%;
+	right: 16px;
+}
+
+.close {
+	top: 16px;
+	right: 20px;
+}
+
 /* Anything under 1024px */
 @media screen and (max-width: 1024px){
 	.portfolio-grid {
