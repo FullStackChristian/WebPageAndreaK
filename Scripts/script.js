@@ -32,20 +32,20 @@ function formatProductPortfList(prodObj){
 	return ret;
 }
 // function contact.html
-/*.ready function to alert whenever an email has been sent successfully*/
+/*.ready function to alert whenever an email has been sent successfully
 $().ready(function(){
 	$("#contact").submit(function() {
          alert("Email has been sent.");
     });
-});
+});*/
 /*validate form function to check the contents of the contact form 
 have been typed in correctly and no required fields are left empty */
 function validateForm(){
   //store fields in variables
-  let x = document.forms["contactForm"]["fname"].value;
-  let y = document.forms["contactForm"]["subject"].value;
-  let z = document.forms["contactForm"]["message"].value;
-  let v = document.forms["contactForm"]["email"].value;
+  const x = document.forms["contactForm"]["fname"].value;
+  const y = document.forms["contactForm"]["subject"].value;
+  const z = document.forms["contactForm"]["message"].value;
+  const v = document.forms["contactForm"]["email"].value;
   //check if fields are empty and alert if they are
   if (x == "") {
     alert("First name must be filled out");
@@ -63,6 +63,9 @@ function validateForm(){
     alert("Please provide an e-mail address");
     return false;
   }
+  $("#contact").submit(function() {
+    alert("Email has been sent.");
+});
 }
 
 //Slideshow code
