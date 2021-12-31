@@ -32,12 +32,6 @@ function formatProductPortfList(prodObj){
 	return ret;
 }
 // function contact.html
-/*.ready function to alert whenever an email has been sent successfully
-$().ready(function(){
-	$("#contact").submit(function() {
-         alert("Email has been sent.");
-    });
-});*/
 /*validate form function to check the contents of the contact form 
 have been typed in correctly and no required fields are left empty */
 function validateForm(){
@@ -63,11 +57,11 @@ function validateForm(){
     alert("Please provide an e-mail address");
     return false;
   }
-  $("#contact").submit(function() {
-    alert("Email has been sent.");
-});
+  else
+  {
+      alert("Email has been sent.");
+  }
 }
-
 //Slideshow code
 /* function to open the slideshow upon clicking on a small sized image
 store the clicked images current id in id variable */
