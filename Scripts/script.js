@@ -1,4 +1,6 @@
-// functions index.html
+//functions index.html
+/*.ready function to load the images into the index.html (home) list
+including the image names and descriptions*/
 $().ready(function(){
 	$.getJSON('Data/products.json', function(jsonData){
 	for (var x in jsonData){
@@ -6,13 +8,15 @@ $().ready(function(){
 		}
 	})
 });
-
+/*formatter fot the html string used in above .ready
+function to load in images and image info*/
 function formatProductIndexList(prodObj){
-	var ret="";
+	let ret="";
 	ret= "<div id='content-grid'>"+"<img src='" + prodObj.img +"'>"+"<div>"+"<h3>"+prodObj.name+"</h3>"+prodObj.desc+"<br>"+prodObj.dim+"</div>"+"</div>";
 	return ret;
 }
-// functions portfolio.html
+//functions portfolio.html
+//.ready function to load image contents of the products.json file into the portfolio grid
 $().ready(function(){
 	$.getJSON('Data/products.json', function(jsonData){
 		for (var x in jsonData){
@@ -20,28 +24,29 @@ $().ready(function(){
 		}
 	})
 });
-
+/*formatter for the html string used in above .ready 
+function to build the image grid on the portfolio.html*/
 function formatProductPortfList(prodObj){
-	var ret="";
+	let ret="";
 	ret=  "<img class='gallery-img' id = '"+prodObj.id+"' src='" + prodObj.img + "' onclick='openSlideShow(this.id)'"+">";
 	return ret;
 }
-
 // function contact.html
-
+/*.ready function to alert whenever an email has been sent successfully*/
 $().ready(function(){
 	$("#contact").submit(function() {
-        //$(".container").hide();
-        //$(".thankYou").show();
          alert("Email has been sent.");
     });
 });
-
-function validateForm() {
-  var x = document.forms["contactForm"]["fname"].value;
-  var y = document.forms["contactForm"]["subject"].value;
-  var z = document.forms["contactForm"]["message"].value;
-  var v = document.forms["contactForm"]["email"].value;
+/*validate form function to check the contents of the contact form 
+have been typed in correctly and no required fields are left empty */
+function validateForm(){
+  //store fields in variables
+  let x = document.forms["contactForm"]["fname"].value;
+  let y = document.forms["contactForm"]["subject"].value;
+  let z = document.forms["contactForm"]["message"].value;
+  let v = document.forms["contactForm"]["email"].value;
+  //check if fields are empty and alert if they are
   if (x == "") {
     alert("First name must be filled out");
     return false;
@@ -61,38 +66,48 @@ function validateForm() {
 }
 
 //Slideshow code
-
+/* function to open the slideshow upon clicking on a small sized image
+store the clicked images current id in id variable */
 function openSlideShow(id){
- //alert("You clicked the element: "+ id);
+  //open the mySlides container for the fullscreen image
  $(".mySlides").show();
+ //close the grid view of all images
  $(".portfolio-grid").hide();
- 
+ //get productsLarge.json data (large images for full screen)
  $.getJSON('Data/productsLarge.json', function(jsonData){
-  var imgItem = jsonData.find(item => item.id === id)
+   //find the image by id in the json file to get the large sized image version
+  let imgItem = jsonData.find(item => item.id === id)
+  //set src and id attribute of img tag to large sized image json params
   document.getElementById("imageid").src=imgItem.img;
   document.getElementById("imageid").id=imgItem.id;
   })
 }
-
+/* close large sized image */
 function closeSlideShow(){
-  //alert("You clicked the element: "+ id);
   $(".mySlides").hide();
   $(".portfolio-grid").show();
-  
-  var currentSlide = document.getElementsByClassName("currentSlide");
+  //get current class for current image
+  let currentSlide = document.getElementsByClassName("currentSlide");
+  // reset id and src attribute when closing large image
   currentSlide[0].id="imageid";
   currentSlide[0].src="";
  }
-
+/* function to scroll through large sized images by selecting next or previous 
+item in the json file*/
  function plusSlides(n){
-   var pic = document.getElementsByClassName("currentSlide");
-   var currentId = pic[0].id;
-  
+   let pic = document.getElementsByClassName("currentSlide");
+   let currentId = pic[0].id;
+  // open json file for large images
   $.getJSON('Data/productsLarge.json', function(jsonData){
-    var imgItem = jsonData.find(item => item.id === currentId);
-    var index = jsonData.indexOf(imgItem);
-    var nextItem = jsonData[index+n];
-    var currentSlide = document.getElementsByClassName("currentSlide");
+    //match current image in json file
+    let imgItem = jsonData.find(item => item.id === currentId);
+    //get current index in json file of current image
+    let index = jsonData.indexOf(imgItem);
+    //find the next json item by adding or substracting 1 from the index
+    let nextItem = jsonData[index+n];
+    //get current tag img tag by class name
+    let currentSlide = document.getElementsByClassName("currentSlide");
+    //set src and id attribute of current img tag to next json item
     currentSlide[0].src=nextItem.img;
     currentSlide[0].id=nextItem.id;
   })
