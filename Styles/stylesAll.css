@@ -1,3 +1,12 @@
+/* Overrite fontfamily for the headline on Portfolio*/
+@font-face {
+    font-family: 'Nautigal';
+    src: url('/Fonts/Nautigal/TheNautigal-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root{
 	--stdTxt: black;
 	--stdbckgrndclr: #D2D5D6;
@@ -6,19 +15,9 @@
 	--cursFont: Brush Script MT, Brush Script Std, cursive;
 }
 
-/*
-Colours
-https://color.adobe.com/create/color-wheel
-#00A8E0 lightblue
-#4E90A6 taskbar
-#006F94 grey darkblue
-#D2D5D6 background-grey
-#004961 darkblue
-*/
-
 /* style for the headLine at the top of the page */
 .headLine{
-	--fntSze: 100%;
+	--fntSze: 150%;
 	
 	font-size: var(--fntSze);
 	text-align:left;
@@ -38,12 +37,14 @@ https://color.adobe.com/create/color-wheel
 .headLine > h1 {
 	padding-left: 100px;
 	letter-spacing: 0.2em;
-	font-family: var(--stdFont);
+	font-family: Nautigal;
 	color: black;
 }
 
 /* style for the taskbar at the top of the page */
 .tskBarGrid {
+	--margin:50px;
+	margin-top: var(--margin);
 	position: sticky;
 	top: 0;
 	display:grid;
@@ -97,6 +98,9 @@ body {
 /* anything below 1024px */
 @media screen and (max-width: 1024px){
 	.headLine  {
-		--fntSze: 50%;
+		--fntSze: 90%;
+	}
+	.tskBarGrid {
+		--margin:10px;
 	}
 }

@@ -67,17 +67,20 @@
 	bottom: 50%;
 	top: 50%;
 	left: 16px;
+	cursor: pointer;
 }
 
 .next {
 	bottom: 50%;
 	top: 50%;
 	right: 16px;
+	cursor: pointer;
 }
 
 .close {
 	top: 16px;
 	right: 20px;
+	cursor: pointer;
 }
 
 /* Anything under 1024px */
