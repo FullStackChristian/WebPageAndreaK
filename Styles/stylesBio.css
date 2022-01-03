@@ -1,5 +1,15 @@
 .bio {
 	--padding: 400px;	
+	text-align:justify;
+	/*text-align: center;*/
+}
+
+#bioText {
+	border: 2.5px solid gold;
+	padding: 25px;
+	margin-left: 250px;
+	margin-right: 250px;
+	
 }
 
 

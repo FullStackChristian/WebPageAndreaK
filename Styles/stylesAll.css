@@ -95,6 +95,9 @@ body {
   padding-top: 100px;
   height: 95%;
 }
+#address {
+	font-size: 10px;
+}
 
 /* anything below 1024px */
 @media screen and (max-width: 1024px){
