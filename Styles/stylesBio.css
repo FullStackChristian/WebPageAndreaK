@@ -1,20 +1,5 @@
-/* Overrite fontfamily for the headline on Portfolio*/
-@font-face {
-    font-family: 'Nautigal';
-    src: url('/Fonts/Nautigal/TheNautigal-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-.headLine > h1 {
-	font-family: 'Nautigal';
-	letter-spacing: 0.0em;
-	font-size: 400%;
-}
-
 .bio {
-	--padding: 500px;	
+	--padding: 400px;	
 }
 
 

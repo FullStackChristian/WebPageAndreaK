@@ -35,7 +35,8 @@
 }
 
 .headLine > h1 {
-	padding-left: 100px;
+    --paddingLeft: 100px;
+	padding-left: var(--paddingLeft);
 	letter-spacing: 0.2em;
 	font-family: Nautigal;
 	color: black;
@@ -102,5 +103,8 @@ body {
 	}
 	.tskBarGrid {
 		--margin:10px;
+	}
+	.headLine > h1 {
+    --paddingLeft: 30px;
 	}
 }
