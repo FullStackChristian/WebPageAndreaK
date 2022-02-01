@@ -54,8 +54,7 @@
 	grid-column-gap: 10px;
 	place-items: center;
 	background-color: white;
-	/*background:var(--goldGrad);*/
-	color:darkgrey;  
+	color:darkgrey;
 	letter-spacing: 0.2em;
 	font-family:var(--stdFont); 
 	z-index: 1000;

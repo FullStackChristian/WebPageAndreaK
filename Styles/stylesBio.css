@@ -1,9 +1,24 @@
+
+
+
+#selfportraitContainer{
+	display: flex;
+	justify-content: center;
+}
+#selfportrait {
+	height: auto;
+	width: 300px;
+	object-fit: contain;
+	margin: 50px;
+	padding: 5px;
+	border: 2.5px solid gold;
+}
 .bio {
 	--padding: 400px;	
 	text-align:justify;
 	/*text-align: center;*/
+	
 }
-
 #bioText {
 	border: 2.5px solid gold;
 	padding: 25px;
@@ -11,7 +26,6 @@
 	margin-right: 250px;
 	
 }
-
 
 .bio > section {
 	text-align: center;

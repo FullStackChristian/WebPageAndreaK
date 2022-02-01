@@ -126,5 +126,13 @@
 		"desc" 	: "Acryl",
 		"dim" 	: "100x100",
 		"img" 	: "Images/Paintings/sImgs/Loewe-min.jpg"
+	},
+	{
+		"id" 			: "img17",
+		"name" 			: "Blume",
+		"price" 		: "100",
+		"desc" 	: "Acryl",
+		"dim" 	: "60x80",
+		"img" 	: "Images/Paintings/sImgs/Blume-min.jpg"
 	}
 ]
