@@ -129,10 +129,26 @@
 	},
 	{
 		"id" 			: "img17",
-		"name" 			: "Blume",
+		"name" 			: "Sommer",
 		"price" 		: "100",
 		"desc" 	: "Acryl",
 		"dim" 	: "60x80",
 		"img" 	: "Images/Paintings/sImgs/Blume-min.jpg"
+	},
+	{
+		"id" 			: "img18",
+		"name" 			: "Abstrakt",
+		"price" 		: "100",
+		"desc" 	: "Mischtechnik: Acryl, Mamormehl",
+		"dim" 	: "100x50",
+		"img" 	: "Images/Paintings/sImgs/Abstrakt-min.jpg"
+	},
+	{
+		"id" 			: "img19",
+		"name" 			: "Secrets",
+		"price" 		: "100",
+		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik, Mamormehl",
+		"dim" 	: "80x80",
+		"img" 	: "Images/Paintings/Secrets.jpg"
 	}
 ]

@@ -6,8 +6,9 @@
 	justify-content: center;
 }
 #selfportrait {
+	--width:350px;
 	height: auto;
-	width: 300px;
+	width: var(--width);
 	object-fit: contain;
 	margin: 50px;
 	padding: 5px;
@@ -20,14 +21,15 @@
 	
 }
 #bioText {
+	--margin:250px;
 	border: 2.5px solid gold;
 	padding: 25px;
-	margin-left: 250px;
-	margin-right: 250px;
+	margin-left:var(--margin);
+	margin-right: var(--margin);
 	
 }
 
-.bio > section {
+.bio > p {
 	text-align: center;
 	padding-left: var(--padding);
 	padding-right: var(--padding);
@@ -35,7 +37,13 @@
 
 /* Anything under 1024px */
 @media screen and (max-width: 1024px){
+	#selfportrait{
+		--width:250px;
+	}
 	.bio {
 		--padding: 100px;
+	}
+	#bioText {
+		--margin:50px;
 	}
 }
