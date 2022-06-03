@@ -2,7 +2,7 @@
 /*.ready function to load the images into the index.html (home) list
 including the image names and descriptions*/
 $().ready(function(){
-	$.getJSON('Data/products.json?v=1', function(jsonData){
+	$.getJSON('Data/products.json?v=3', function(jsonData){
 	for (var x in jsonData){
 		$("#content").append(formatProductIndexList(jsonData[x]))
 		}
@@ -12,7 +12,7 @@ $().ready(function(){
 function to load in images and image info*/
 function formatProductIndexList(prodObj){
 	let ret="";
-	ret= "<div id='content-grid'>"+"<img src='" + prodObj.img +"'>"+"<div>"+"<h3>"+prodObj.name+"</h3>"+prodObj.desc+"<br>"+prodObj.dim+"</div>"+"</div>";
+	ret= "<div id='content-grid'>"+"<img src='" + prodObj.img +"'>"+"<div>"+"<h3>"+prodObj.name+"</h3>"+prodObj.desc+"<br>"+prodObj.dim+"<br><br>"+prodObj.price+"</div>"+"</div>";
 	return ret;
 }
 //functions portfolio.html
@@ -71,11 +71,11 @@ function openSlideShow(id){
  //close the grid view of all images
  $(".portfolio-grid").hide();
  //get productsLarge.json data (large images for full screen)
- $.getJSON('Data/productsLarge.json?v=1', function(jsonData){
+ $.getJSON('Data/products.json?v=3', function(jsonData){
    //find the image by id in the json file to get the large sized image version
   let imgItem = jsonData.find(item => item.id === id)
   //set src and id attribute of img tag to large sized image json params
-  document.getElementById("imageid").src=imgItem.img;
+  document.getElementById("imageid").src=imgItem.imgLarge;
   document.getElementById("imageid").id=imgItem.id;
   })
 }
@@ -95,7 +95,7 @@ item in the json file*/
    let pic = document.getElementsByClassName("currentSlide");
    let currentId = pic[0].id;
   // open json file for large images
-  $.getJSON('Data/productsLarge.json?v=1', function(jsonData){
+  $.getJSON('Data/products.json?v=3', function(jsonData){
     //match current image in json file
     let imgItem = jsonData.find(item => item.id === currentId);
     //get current index in json file of current image
@@ -104,8 +104,10 @@ item in the json file*/
     let nextItem = jsonData[index+n];
     //get current tag img tag by class name
     let currentSlide = document.getElementsByClassName("currentSlide");
+    console.log(nextItem.img);
+    console.log(nextItem.imgLarge);
     //set src and id attribute of current img tag to next json item
-    currentSlide[0].src=nextItem.img;
+    currentSlide[0].src=nextItem.imgLarge;
     currentSlide[0].id=nextItem.id;
   })
  }
