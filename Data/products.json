@@ -2,56 +2,56 @@
 	{
 		"id" 			: "img25",
 		"name" 			: "Fragile",
-		"price" 		: "€ 6.650",
+		"price" 		: "€ 950",
 		"desc" 	: "Mischtechnik: Acryl, Mamormehl",
 		"dim" 	: "80x80",
 		"img" 	: "Images/Paintings/sImgs/Fragile_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Fragile_Out.jpg"
+		"imgLarge" 	: "Images/Paintings/Fragile.jpg"
 	},
 	{
 		"id" 			: "img24",
-		"name" 			: "Party",
-		"price" 		: "€ 5.450",
+		"name" 			: "Skull",
+		"price" 		: "€ 850",
 		"desc" 	: "Mischtechnik: Acryl, Strukturpaste, Blattgold, Goldstaub",
 		"dim" 	: "80x80",
-		"img" 	: "Images/Paintings/sImgs/Party_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Party_Out.jpg"
+		"img" 	: "Images/Paintings/sImgs/Skull_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Skull.jpg"
 	},
 	{
 		"id" 			: "img23",
-		"name" 			: "Kein Name",
-		"price" 		: "€ 4.750",
+		"name" 			: "Party",
+		"price" 		: "€ 750",
 		"desc" 	: "Mischtechnik: Acryl, Strukturpaste, Goldstaub",
 		"dim" 	: "80x120",
-		"img" 	: "Images/Paintings/sImgs/KeinName_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/KeinName_Out.jpg"
+		"img" 	: "Images/Paintings/sImgs/Party_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Party.jpg"
 	},
 	{
 		"id" 			: "img22",
 		"name" 			: "Unter Wasser",
-		"price" 		: "€ 3.550",
+		"price" 		: "€ 550",
 		"desc" 	: "Acryl",
 		"dim" 	: "100x100",
 		"img" 	: "Images/Paintings/sImgs/UnterWasser_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/UnterWasser_Out.jpg"
+		"imgLarge" 	: "Images/Paintings/UnterWasser.jpg"
 	},
 	{
 		"id" 			: "img21",
 		"name" 			: "Schachmatt",
-		"price" 		: "€ 2.650",
+		"price" 		: "€ 950",
 		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik, Mamormehl",
 		"dim" 	: "100x100",
 		"img" 	: "Images/Paintings/sImgs/Schachmatt_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Schachmatt_Out.jpg"
+		"imgLarge" 	: "Images/Paintings/Schachmatt.jpg"
 	},
 	{
 		"id" 			: "img20",
 		"name" 			: "AllYouNeedIsLove",
-		"price" 		: "€ 1.650",
+		"price" 		: "€ 950",
 		"desc" 	: "Acryl",
 		"dim" 	: "100x100",
 		"img" 	: "Images/Paintings/sImgs/AllYouNeedIsLove_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/AllYouNeedIsLove_Out.jpg"
+		"imgLarge" 	: "Images/Paintings/AllYouNeedIsLove.jpg"
 	},
 	{
 		"id" 			: "img19",
@@ -60,7 +60,7 @@
 		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik, Mamormehl",
 		"dim" 	: "80x80",
 		"img" 	: "Images/Paintings/sImgs/Secrets_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Secrets_Out.jpg"
+		"imgLarge" 	: "Images/Paintings/Secrets.jpg"
 	},
 	{
 		"id" 			: "img18",
@@ -132,7 +132,7 @@
 		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik",
 		"dim" 	: "100x120",
 		"img" 	: "Images/Paintings/sImgs//dasLeben_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/dasLeben_Out.jpg"
+		"imgLarge" 	: "Images/Paintings/dasLeben.jpg"
 	},
 	{
 		"id" 			: "img5",
@@ -141,7 +141,7 @@
 		"desc" 	: "Acryl",
 		"dim" 	: "120x150",
 		"img" 	: "Images/Paintings/sImgs//Dreams_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Dreams_Out.jpg"
+		"imgLarge" 	: "Images/Paintings/Dreams.jpg"
 	},
 	{
 		"id" 			: "img6",
@@ -159,7 +159,7 @@
 		"desc" 	: "Acryl",
 		"dim" 	: "120x120",
 		"img" 	: "Images/Paintings/sImgs//Elefant1_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Elefant1_Out.jpg"
+		"imgLarge" 	: "Images/Paintings/Elefant1.jpg"
 	},
 	{
 		"id" 			: "img8",
@@ -186,7 +186,7 @@
 		"desc" 	: "Acryl",
 		"dim" 	: "100x120",
 		"img" 	: "Images/Paintings/sImgs/Nightlife_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Nightlife_Out.jpg"
+		"imgLarge" 	: "Images/Paintings/Nightlife.jpg"
 	},
 	{
 		"id" 			: "img11",
@@ -195,7 +195,7 @@
 		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik",
 		"dim" 	: "120x150",
 		"img" 	: "Images/Paintings/sImgs/schauAufUnsereErde_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/schauAufUnsereErde_Out.jpg"
+		"imgLarge" 	: "Images/Paintings/schauAufUnsereErde.jpg"
 	},
 	{
 		"id" 			: "img12",
