@@ -14,6 +14,11 @@
 	padding: 5px;
 	border: 2.5px solid gold;
 }
+#selfportrait:hover {
+	transform: scale(1.5);
+	cursor: zoom-out;
+	z-index: 1001;
+}
 .bio {
 	--padding: 400px;	
 	text-align:justify;

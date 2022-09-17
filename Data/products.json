@@ -1,5 +1,104 @@
 [
 	{
+		"id" 			: "img25",
+		"name" 			: "Fragile",
+		"price" 		: "€ 6.650",
+		"desc" 	: "Mischtechnik: Acryl, Mamormehl",
+		"dim" 	: "80x80",
+		"img" 	: "Images/Paintings/sImgs/Fragile_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Fragile_Out.jpg"
+	},
+	{
+		"id" 			: "img24",
+		"name" 			: "Party",
+		"price" 		: "€ 5.450",
+		"desc" 	: "Mischtechnik: Acryl, Strukturpaste, Blattgold, Goldstaub",
+		"dim" 	: "80x80",
+		"img" 	: "Images/Paintings/sImgs/Party_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Party_Out.jpg"
+	},
+	{
+		"id" 			: "img23",
+		"name" 			: "Kein Name",
+		"price" 		: "€ 4.750",
+		"desc" 	: "Mischtechnik: Acryl, Strukturpaste, Goldstaub",
+		"dim" 	: "80x120",
+		"img" 	: "Images/Paintings/sImgs/KeinName_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/KeinName_Out.jpg"
+	},
+	{
+		"id" 			: "img22",
+		"name" 			: "Unter Wasser",
+		"price" 		: "€ 3.550",
+		"desc" 	: "Acryl",
+		"dim" 	: "100x100",
+		"img" 	: "Images/Paintings/sImgs/UnterWasser_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/UnterWasser_Out.jpg"
+	},
+	{
+		"id" 			: "img21",
+		"name" 			: "Schachmatt",
+		"price" 		: "€ 2.650",
+		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik, Mamormehl",
+		"dim" 	: "100x100",
+		"img" 	: "Images/Paintings/sImgs/Schachmatt_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Schachmatt_Out.jpg"
+	},
+	{
+		"id" 			: "img20",
+		"name" 			: "AllYouNeedIsLove",
+		"price" 		: "€ 1.650",
+		"desc" 	: "Acryl",
+		"dim" 	: "100x100",
+		"img" 	: "Images/Paintings/sImgs/AllYouNeedIsLove_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/AllYouNeedIsLove_Out.jpg"
+	},
+	{
+		"id" 			: "img19",
+		"name" 			: "Secrets",
+		"price" 		: "€ 750",
+		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik, Mamormehl",
+		"dim" 	: "80x80",
+		"img" 	: "Images/Paintings/sImgs/Secrets_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Secrets_Out.jpg"
+	},
+	{
+		"id" 			: "img18",
+		"name" 			: "Abstrakt",
+		"price" 		: "sold",
+		"desc" 	: "Mischtechnik: Acryl, Mamormehl",
+		"dim" 	: "100x50",
+		"img" 	: "Images/Paintings/sImgs/Abstrakt-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Abstrakt.jpg"
+	},
+	{
+		"id" 			: "img17",
+		"name" 			: "Sommer",
+		"price" 		: "€ 400",
+		"desc" 	: "Acryl",
+		"dim" 	: "60x80",
+		"img" 	: "Images/Paintings/sImgs/Blume-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Blume.jpg"
+	},
+	{
+		"id" 			: "img16",
+		"name" 			: "Loewe",
+		"price" 		: "€ 750",
+		"desc" 	: "Acryl",
+		"dim" 	: "100x100",
+		"img" 	: "Images/Paintings/sImgs/Loewe-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Loewe.jpg"
+	},
+	{
+		"id" 			: "img15",
+		"name" 			: "Tiger",
+		"price" 		: "€ 550",
+		"desc" 	: "Acryl",
+		"dim" 	: "100x120",
+		"img" 	: "Images/Paintings/sImgs/Tiger-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Tiger.jpg"
+	},
+	{
 		"id" 			: "img1",
 		"name" 			: "im Fluss",
 		"price" 		: "€ 750",
@@ -32,8 +131,8 @@
 		"price" 		: "€ 950",
 		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik",
 		"dim" 	: "100x120",
-		"img" 	: "Images/Paintings/sImgs//dasLeben-min.jpg",
-		"imgLarge" 	: "Images/Paintings/dasLeben.jpg"
+		"img" 	: "Images/Paintings/sImgs//dasLeben_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/dasLeben_Out.jpg"
 	},
 	{
 		"id" 			: "img5",
@@ -41,8 +140,8 @@
 		"price" 		: "€ 1350",
 		"desc" 	: "Acryl",
 		"dim" 	: "120x150",
-		"img" 	: "Images/Paintings/sImgs//Dreams-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Dreams.jpg"
+		"img" 	: "Images/Paintings/sImgs//Dreams_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Dreams_Out.jpg"
 	},
 	{
 		"id" 			: "img6",
@@ -59,8 +158,8 @@
 		"price" 		: "€ 1200",
 		"desc" 	: "Acryl",
 		"dim" 	: "120x120",
-		"img" 	: "Images/Paintings/sImgs//Elefant1-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Elefant1.jpg"
+		"img" 	: "Images/Paintings/sImgs//Elefant1_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Elefant1_Out.jpg"
 	},
 	{
 		"id" 			: "img8",
@@ -86,8 +185,8 @@
 		"price" 		: "€ 950",
 		"desc" 	: "Acryl",
 		"dim" 	: "100x120",
-		"img" 	: "Images/Paintings/sImgs/Nightlife-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Nightlife.jpg"
+		"img" 	: "Images/Paintings/sImgs/Nightlife_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Nightlife_Out.jpg"
 	},
 	{
 		"id" 			: "img11",
@@ -95,8 +194,8 @@
 		"price" 		: "€ 1650",
 		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik",
 		"dim" 	: "120x150",
-		"img" 	: "Images/Paintings/sImgs/schauAufUnsereErde-min.jpg",
-		"imgLarge" 	: "Images/Paintings/schauAufUnsereErde.jpg"
+		"img" 	: "Images/Paintings/sImgs/schauAufUnsereErde_Out-min.jpg",
+		"imgLarge" 	: "Images/Paintings/schauAufUnsereErde_Out.jpg"
 	},
 	{
 		"id" 			: "img12",
@@ -124,50 +223,5 @@
 		"dim" 	: "120x100",
 		"img" 	: "Images/Paintings/sImgs/Fagradalsfjall-min.jpg",
 		"imgLarge" 	: "Images/Paintings/Fagradalsfjall.jpg"
-	},
-	{
-		"id" 			: "img15",
-		"name" 			: "Tiger",
-		"price" 		: "€ 550",
-		"desc" 	: "Acryl",
-		"dim" 	: "100x120",
-		"img" 	: "Images/Paintings/sImgs/Tiger-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Tiger.jpg"
-	},
-	{
-		"id" 			: "img16",
-		"name" 			: "Loewe",
-		"price" 		: "€ 750",
-		"desc" 	: "Acryl",
-		"dim" 	: "100x100",
-		"img" 	: "Images/Paintings/sImgs/Loewe-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Loewe.jpg"
-	},
-	{
-		"id" 			: "img17",
-		"name" 			: "Sommer",
-		"price" 		: "€ 400",
-		"desc" 	: "Acryl",
-		"dim" 	: "60x80",
-		"img" 	: "Images/Paintings/sImgs/Blume-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Blume.jpg"
-	},
-	{
-		"id" 			: "img18",
-		"name" 			: "Abstrakt",
-		"price" 		: "sold",
-		"desc" 	: "Mischtechnik: Acryl, Mamormehl",
-		"dim" 	: "100x50",
-		"img" 	: "Images/Paintings/sImgs/Abstrakt-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Abstrakt.jpg"
-	},
-	{
-		"id" 			: "img19",
-		"name" 			: "Secrets",
-		"price" 		: "€ 750",
-		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik, Mamormehl",
-		"dim" 	: "80x80",
-		"img" 	: "Images/Paintings/Secrets.jpg",
-		"imgLarge" 	: "Images/Paintings/Secrets.jpg"
 	}
 ]
