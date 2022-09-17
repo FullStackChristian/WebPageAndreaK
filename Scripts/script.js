@@ -8,7 +8,7 @@ $().ready(function(){
 		}
 	})
 });
-/*formatter fot the html string used in above .ready
+/*formatter for the html string used in above .ready
 function to load in images and image info*/
 function formatProductIndexList(prodObj){
 	let ret="";
