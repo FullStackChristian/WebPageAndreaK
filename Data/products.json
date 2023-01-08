@@ -18,6 +18,15 @@
 		"imgLarge" 	: "Images/Paintings/Dreams.jpg"
 	},
 	{
+		"id" 			: "img28",
+		"name" 			: "Glamour",
+		"price" 		: "€ 750",
+		"desc" 	: "Acryl",
+		"dim" 	: "40x120",
+		"img" 	: "Images/Paintings/sImgs/Glamour-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Glamour.jpg"
+	},
+	{
 		"id" 			: "img27",
 		"name" 			: "The Protective Eye",
 		"price" 		: "€ 750",
@@ -88,15 +97,6 @@
 		"dim" 	: "80x80",
 		"img" 	: "Images/Paintings/sImgs/Skull_Out-min.jpg",
 		"imgLarge" 	: "Images/Paintings/Skull.jpg"
-	},
-	{
-		"id" 			: "img27",
-		"name" 			: "Glamour",
-		"price" 		: "€ 750",
-		"desc" 	: "Acryl",
-		"dim" 	: "40x120",
-		"img" 	: "Images/Paintings/sImgs/Glamour-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Glamour.jpg"
 	},
 	{
 		"id" 			: "img23",
