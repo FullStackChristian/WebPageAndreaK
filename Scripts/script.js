@@ -1,8 +1,9 @@
 //functions index.html
 /*.ready function to load the images into the index.html (home) list
 including the image names and descriptions*/
+const productsVersion = "14";
 $().ready(function(){
-	$.getJSON('Data/products.json?v=8', function(jsonData){
+	$.getJSON('Data/products.json?v={productsVersion}', function(jsonData){
 	for (var x in jsonData){
 		$("#content").append(formatProductIndexList(jsonData[x]))
 		}
@@ -19,7 +20,7 @@ function formatProductIndexList(prodObj){
 //functions portfolio.html
 //.ready function to load image contents of the products.json file into the portfolio grid
 $().ready(function(){
-	$.getJSON('Data/products.json?v=8', function(jsonData){
+	$.getJSON('Data/products.json?v={productsVersion}', function(jsonData){
 		for (var x in jsonData){
 		$("#portfolio-grid").append(formatProductPortfList(jsonData[x]))
 		}
@@ -72,7 +73,7 @@ function openSlideShow(id){
  //close the grid view of all images
  $(".portfolio-grid").hide();
  //get productsLarge.json data (large images for full screen)
- $.getJSON('Data/products.json?v=8', function(jsonData){
+ $.getJSON('Data/products.json?v={productsVersion}', function(jsonData){
    //find the image by id in the json file to get the large sized image version
   let imgItem = jsonData.find(item => item.id === id)
   //set src and id attribute of img tag to large sized image json params
@@ -96,7 +97,7 @@ item in the json file*/
    let pic = document.getElementsByClassName("currentSlide");
    let currentId = pic[0].id;
   // open json file for large images
-  $.getJSON('Data/products.json?v=8', function(jsonData){
+  $.getJSON('Data/products.json?v={productsVersion}', function(jsonData){
     //match current image in json file
     let imgItem = jsonData.find(item => item.id === currentId);
     //get current index in json file of current image
