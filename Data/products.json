@@ -14,8 +14,17 @@
 		"price" 		: "€ 1350",
 		"desc" 	: "Acryl",
 		"dim" 	: "120x150",
-		"img" 	: "Images/Paintings/sImgs//Dreams_Out-min.jpg",
+		"img" 	: "Images/Paintings/sImgs/Dreams_Out-min.jpg",
 		"imgLarge" 	: "Images/Paintings/Dreams.jpg"
+	},
+	{
+		"id" 			: "img30",
+		"name" 			: "Dark Dreams",
+		"price" 		: "€ 950",
+		"desc" 	: "Mischtechnik, Acryl, Strukturpaste",
+		"dim" 	: "60x80",
+		"img" 	: "Images/Paintings/sImgs/Darkdreams-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Darkdreams.jpg"
 	},
 	{
 		"id" 			: "img28",
@@ -25,6 +34,15 @@
 		"dim" 	: "40x120",
 		"img" 	: "Images/Paintings/sImgs/Glamour-min.jpg",
 		"imgLarge" 	: "Images/Paintings/Glamour.jpg"
+	},
+	{
+		"id" 			: "img29",
+		"name" 			: "Golden Eye",
+		"price" 		: "€ 750",
+		"desc" 	: "Mischtechnik: Acryl, Blattgold",
+		"dim" 	: "70x70",
+		"img" 	: "Images/Paintings/sImgs/Goldeneye-min.jpg",
+		"imgLarge" 	: "Images/Paintings/Goldeneye.jpg"
 	},
 	{
 		"id" 			: "img27",
@@ -70,6 +88,15 @@
 		"dim" 	: "120x150",
 		"img" 	: "Images/Paintings/sImgs/schauAufUnsereErde_Out-min.jpg",
 		"imgLarge" 	: "Images/Paintings/schauAufUnsereErde.jpg"
+	},
+	{
+		"id" 			: "img29",
+		"name" 			: "Lets Rock",
+		"price" 		: "€ 950",
+		"desc" 	: "Acryl",
+		"dim" 	: "120x120",
+		"img" 	: "Images/Paintings/sImgs/LetsRock-min.jpg",
+		"imgLarge" 	: "Images/Paintings/LetsRock.jpg"
 	},
 	{
 		"id" 			: "img21",
