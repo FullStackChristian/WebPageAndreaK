@@ -1,200 +1,200 @@
 [
-	{
-		"id" 			: "img26",
-		"name" 			: "Model",
-		"price" 		: "€ 750",
-		"desc" 	: "Acryl",
-		"dim" 	: "120x150",
-		"img" 	: "Images/Paintings/sImgs/Model-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Model.jpg"
-	},
-	{
-		"id" 			: "img5",
-		"name" 			: "Dreams",
-		"price" 		: "€ 1350",
-		"desc" 	: "Acryl",
-		"dim" 	: "120x150",
-		"img" 	: "Images/Paintings/sImgs/Dreams_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Dreams.jpg"
-	},
-	{
-		"id" 			: "img30",
-		"name" 			: "Dark Dreams",
-		"price" 		: "€ 950",
-		"desc" 	: "Mischtechnik, Acryl, Strukturpaste",
-		"dim" 	: "60x80",
-		"img" 	: "Images/Paintings/sImgs/Darkdreams-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Darkdreams.jpg"
-	},
-	{
-		"id" 			: "img28",
-		"name" 			: "Glamour",
-		"price" 		: "€ 750",
-		"desc" 	: "Acryl",
-		"dim" 	: "40x120",
-		"img" 	: "Images/Paintings/sImgs/Glamour-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Glamour.jpg"
-	},
-	{
-		"id" 			: "img29",
-		"name" 			: "Golden Eye",
-		"price" 		: "€ 750",
-		"desc" 	: "Mischtechnik: Acryl, Blattgold",
-		"dim" 	: "70x70",
-		"img" 	: "Images/Paintings/sImgs/Goldeneye-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Goldeneye.jpg"
-	},
-	{
-		"id" 			: "img27",
-		"name" 			: "The Protective Eye",
-		"price" 		: "€ 750",
-		"desc" 	: "Acryl",
-		"dim" 	: "40x40",
-		"img" 	: "Images/Paintings/sImgs/TheProtectiveEye-min.jpg",
-		"imgLarge" 	: "Images/Paintings/TheProtectiveEye.jpg"
-	},
-	{
-		"id" 			: "img25",
-		"name" 			: "Fragile",
-		"price" 		: "€ 950",
-		"desc" 	: "Mischtechnik: Acryl, Mamormehl",
-		"dim" 	: "80x80",
-		"img" 	: "Images/Paintings/sImgs/Fragile_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Fragile.jpg"
-	},
-	{
-		"id" 			: "img19",
-		"name" 			: "Secrets",
-		"price" 		: "€ 750",
-		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik, Mamormehl",
-		"dim" 	: "80x80",
-		"img" 	: "Images/Paintings/sImgs/Secrets_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Secrets.jpg"
-	},
-	{
-		"id" 			: "img10",
-		"name" 			: "Nightlife",
-		"price" 		: "€ 950",
-		"desc" 	: "Acryl",
-		"dim" 	: "100x120",
-		"img" 	: "Images/Paintings/sImgs/Nightlife_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Nightlife.jpg"
-	},
-	{
-		"id" 			: "img11",
-		"name" 			: "Schau auf unsere Erde",
-		"price" 		: "€ 1650",
-		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik",
-		"dim" 	: "120x150",
-		"img" 	: "Images/Paintings/sImgs/schauAufUnsereErde_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/schauAufUnsereErde.jpg"
-	},
-	{
-		"id" 			: "img29",
-		"name" 			: "Lets Rock",
-		"price" 		: "€ 950",
-		"desc" 	: "Acryl",
-		"dim" 	: "120x120",
-		"img" 	: "Images/Paintings/sImgs/LetsRock-min.jpg",
-		"imgLarge" 	: "Images/Paintings/LetsRock.jpg"
-	},
-	{
-		"id" 			: "img21",
-		"name" 			: "Schachmatt",
-		"price" 		: "€ 950",
-		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik, Mamormehl",
-		"dim" 	: "100x100",
-		"img" 	: "Images/Paintings/sImgs/Schachmatt_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Schachmatt.jpg"
-	},
-	{
-		"id" 			: "img20",
-		"name" 			: "AllYouNeedIsLove",
-		"price" 		: "€ 950",
-		"desc" 	: "Acryl",
-		"dim" 	: "100x100",
-		"img" 	: "Images/Paintings/sImgs/AllYouNeedIsLove_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/AllYouNeedIsLove.jpg"
-	},
-	{
-		"id" 			: "img24",
-		"name" 			: "Skull",
-		"price" 		: "€ 850",
-		"desc" 	: "Mischtechnik: Acryl, Strukturpaste, Blattgold, Goldstaub",
-		"dim" 	: "80x80",
-		"img" 	: "Images/Paintings/sImgs/Skull_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Skull.jpg"
-	},
-	{
-		"id" 			: "img23",
-		"name" 			: "Party",
-		"price" 		: "€ 750",
-		"desc" 	: "Mischtechnik: Acryl, Strukturpaste, Goldstaub",
-		"dim" 	: "80x120",
-		"img" 	: "Images/Paintings/sImgs/Party_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Party.jpg"
-	},
-	{
-		"id" 			: "img22",
-		"name" 			: "Unter Wasser",
-		"price" 		: "€ 550",
-		"desc" 	: "Acryl",
-		"dim" 	: "100x100",
-		"img" 	: "Images/Paintings/sImgs/UnterWasser_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/UnterWasser.jpg"
-	},
-	{
-		"id" 			: "img18",
-		"name" 			: "Abstrakt",
-		"price" 		: "sold",
-		"desc" 	: "Mischtechnik: Acryl, Mamormehl",
-		"dim" 	: "100x50",
-		"img" 	: "Images/Paintings/sImgs/Abstrakt-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Abstrakt.jpg"
-	},
-	{
-		"id" 			: "img4",
-		"name" 			: "Das Leben",
-		"price" 		: "€ 950",
-		"desc" 	: "Mischtechnik: Acryl, Spachteltechnik",
-		"dim" 	: "100x120",
-		"img" 	: "Images/Paintings/sImgs//dasLeben_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/dasLeben.jpg"
-	},
-	{
-		"id" 			: "img3",
-		"name" 			: "Lola",
-		"price" 		: "€ N/A",
-		"desc" 	: "Acryl",
-		"dim" 	: "60x80",
-		"img" 	: "Images/Paintings/sImgs//Lola-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Lola.jpg"
-	},
-	{
-		"id" 			: "img7",
-		"name" 			: "Elefant",
-		"price" 		: "€ 1200",
-		"desc" 	: "Acryl",
-		"dim" 	: "120x120",
-		"img" 	: "Images/Paintings/sImgs//Elefant1_Out-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Elefant1.jpg"
-	},
-	{
-		"id" 			: "img7",
-		"name" 			: "Elefant 2",
-		"price" 		: "€ 1200",
-		"desc" 	: "Mischtechnik, Acryl, Strukturpaste",
-		"dim" 	: "100x120",
-		"img" 	: "Images/Paintings/sImgs//Elefant2-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Elefant2.jpg"
-	},
-	{
-		"id" 			: "img13",
-		"name" 			: "Stier",
-		"price" 		: "€ 850",
-		"desc" 	: "Mischtechnik: Acryl, Strukturpaste",
-		"dim" 	: "120x100",
-		"img" 	: "Images/Paintings/sImgs/Stier-min.jpg",
-		"imgLarge" 	: "Images/Paintings/Stier.jpg"
-	}
+  {
+    "id": "img26",
+    "name": "Model",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Acryl",
+    "dim": "120x150",
+    "img": "Images/Paintings/sImgs/Model-min.jpg",
+    "imgLarge": "Images/Paintings/Model.jpg"
+  },
+  {
+    "id": "img5",
+    "name": "Dreams",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Acryl",
+    "dim": "120x150",
+    "img": "Images/Paintings/sImgs/Dreams_Out-min.jpg",
+    "imgLarge": "Images/Paintings/Dreams.jpg"
+  },
+  {
+    "id": "img30",
+    "name": "Dark Dreams",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik, Acryl, Strukturpaste",
+    "dim": "60x80",
+    "img": "Images/Paintings/sImgs/Darkdreams-min.jpg",
+    "imgLarge": "Images/Paintings/Darkdreams.jpg"
+  },
+  {
+    "id": "img28",
+    "name": "Glamour",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Acryl",
+    "dim": "40x120",
+    "img": "Images/Paintings/sImgs/Glamour-min.jpg",
+    "imgLarge": "Images/Paintings/Glamour.jpg"
+  },
+  {
+    "id": "img29",
+    "name": "Golden Eye",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik: Acryl, Blattgold",
+    "dim": "70x70",
+    "img": "Images/Paintings/sImgs/Goldeneye-min.jpg",
+    "imgLarge": "Images/Paintings/Goldeneye.jpg"
+  },
+  {
+    "id": "img27",
+    "name": "The Protective Eye",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Acryl",
+    "dim": "40x40",
+    "img": "Images/Paintings/sImgs/TheProtectiveEye-min.jpg",
+    "imgLarge": "Images/Paintings/TheProtectiveEye.jpg"
+  },
+  {
+    "id": "img25",
+    "name": "Fragile",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik: Acryl, Mamormehl",
+    "dim": "80x80",
+    "img": "Images/Paintings/sImgs/Fragile_Out-min.jpg",
+    "imgLarge": "Images/Paintings/Fragile.jpg"
+  },
+  {
+    "id": "img19",
+    "name": "Secrets",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik: Acryl, Spachteltechnik, Mamormehl",
+    "dim": "80x80",
+    "img": "Images/Paintings/sImgs/Secrets_Out-min.jpg",
+    "imgLarge": "Images/Paintings/Secrets.jpg"
+  },
+  {
+    "id": "img10",
+    "name": "Nightlife",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Acryl",
+    "dim": "100x120",
+    "img": "Images/Paintings/sImgs/Nightlife_Out-min.jpg",
+    "imgLarge": "Images/Paintings/Nightlife.jpg"
+  },
+  {
+    "id": "img11",
+    "name": "Schau auf unsere Erde",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik: Acryl, Spachteltechnik",
+    "dim": "120x150",
+    "img": "Images/Paintings/sImgs/schauAufUnsereErde_Out-min.jpg",
+    "imgLarge": "Images/Paintings/schauAufUnsereErde.jpg"
+  },
+  {
+    "id": "img29",
+    "name": "Lets Rock",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Acryl",
+    "dim": "120x120",
+    "img": "Images/Paintings/sImgs/LetsRock-min.jpg",
+    "imgLarge": "Images/Paintings/LetsRock.jpg"
+  },
+  {
+    "id": "img21",
+    "name": "Schachmatt",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik: Acryl, Spachteltechnik, Mamormehl",
+    "dim": "100x100",
+    "img": "Images/Paintings/sImgs/Schachmatt_Out-min.jpg",
+    "imgLarge": "Images/Paintings/Schachmatt.jpg"
+  },
+  {
+    "id": "img20",
+    "name": "AllYouNeedIsLove",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Acryl",
+    "dim": "100x100",
+    "img": "Images/Paintings/sImgs/AllYouNeedIsLove_Out-min.jpg",
+    "imgLarge": "Images/Paintings/AllYouNeedIsLove.jpg"
+  },
+  {
+    "id": "img24",
+    "name": "Skull",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik: Acryl, Strukturpaste, Blattgold, Goldstaub",
+    "dim": "80x80",
+    "img": "Images/Paintings/sImgs/Skull_Out-min.jpg",
+    "imgLarge": "Images/Paintings/Skull.jpg"
+  },
+  {
+    "id": "img23",
+    "name": "Party",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik: Acryl, Strukturpaste, Goldstaub",
+    "dim": "80x120",
+    "img": "Images/Paintings/sImgs/Party_Out-min.jpg",
+    "imgLarge": "Images/Paintings/Party.jpg"
+  },
+  {
+    "id": "img22",
+    "name": "Unter Wasser",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Acryl",
+    "dim": "100x100",
+    "img": "Images/Paintings/sImgs/UnterWasser_Out-min.jpg",
+    "imgLarge": "Images/Paintings/UnterWasser.jpg"
+  },
+  {
+    "id": "img18",
+    "name": "Abstrakt",
+    "price": "sold",
+    "desc": "Mischtechnik: Acryl, Mamormehl",
+    "dim": "100x50",
+    "img": "Images/Paintings/sImgs/Abstrakt-min.jpg",
+    "imgLarge": "Images/Paintings/Abstrakt.jpg"
+  },
+  {
+    "id": "img4",
+    "name": "Das Leben",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik: Acryl, Spachteltechnik",
+    "dim": "100x120",
+    "img": "Images/Paintings/sImgs//dasLeben_Out-min.jpg",
+    "imgLarge": "Images/Paintings/dasLeben.jpg"
+  },
+  {
+    "id": "img3",
+    "name": "Lola",
+    "price": "N/A",
+    "desc": "Acryl",
+    "dim": "60x80",
+    "img": "Images/Paintings/sImgs//Lola-min.jpg",
+    "imgLarge": "Images/Paintings/Lola.jpg"
+  },
+  {
+    "id": "img7",
+    "name": "Elefant",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Acryl",
+    "dim": "120x120",
+    "img": "Images/Paintings/sImgs//Elefant1_Out-min.jpg",
+    "imgLarge": "Images/Paintings/Elefant1.jpg"
+  },
+  {
+    "id": "img7",
+    "name": "Elefant 2",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik, Acryl, Strukturpaste",
+    "dim": "100x120",
+    "img": "Images/Paintings/sImgs//Elefant2-min.jpg",
+    "imgLarge": "Images/Paintings/Elefant2.jpg"
+  },
+  {
+    "id": "img13",
+    "name": "Stier",
+    "price": "Preis auf Anfrage/price on request",
+    "desc": "Mischtechnik: Acryl, Strukturpaste",
+    "dim": "120x100",
+    "img": "Images/Paintings/sImgs/Stier-min.jpg",
+    "imgLarge": "Images/Paintings/Stier.jpg"
+  }
 ]

@@ -1,7 +1,7 @@
 //functions index.html
 /*.ready function to load the images into the index.html (home) list
 including the image names and descriptions*/
-const productsVersion = "14";
+const productsVersion = "15";
 $().ready(function(){
 	$.getJSON('Data/products.json?v={productsVersion}', function(jsonData){
 	for (var x in jsonData){
